@@ -1,0 +1,7 @@
+<templateSet group="Jack">
+  <template name="jack" value="jack test" description="jack's test" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP Statement" value="true" />
+    </context>
+  </template>
+</templateSet>
