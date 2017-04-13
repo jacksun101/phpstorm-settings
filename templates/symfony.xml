@@ -103,14 +103,13 @@
     <variable name="PROPERTY" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="PARAMETER" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="ARGUMENT" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
-  <template name="getem" value="$em = $this-&gt;getDoctrine()-&gt;getManager();" toReformat="false" toShortenFQNames="true">
+  <template name="getem" value="$em = $this-&gt;getDoctrine()-&gt;getManager();" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="getrepo" value="$em-&gt;getRepository('$ENTITY$');" toReformat="false" toShortenFQNames="true">
+  <template name="getrepo" value="$em-&gt;getRepository('$ENTITY$');" description="" toReformat="false" toShortenFQNames="true">
     <variable name="ENTITY" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
@@ -123,19 +122,19 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="asset" value="{{ asset('$PATH$') }}" toReformat="false" toShortenFQNames="true">
+  <template name="asset" value="{{ asset('$PATH$') }}" description="" toReformat="false" toShortenFQNames="true">
     <variable name="PATH" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML" value="true" />
     </context>
   </template>
-  <template name="asseticjs" value="{% javascripts&#10;    '$PATH$'$END$&#10;%}&#10;    &lt;script type=&quot;text/javascript&quot; src=&quot;{{ asset_url }}&quot;&gt;&lt;/script&gt;&#10;{% endjavascripts %}" toReformat="false" toShortenFQNames="true">
+  <template name="asseticjs" value="{% javascripts&#10;    '$PATH$'$END$&#10;%}&#10;    &lt;script type=&quot;text/javascript&quot; src=&quot;{{ asset_url }}&quot;&gt;&lt;/script&gt;&#10;{% endjavascripts %}" description="" toReformat="false" toShortenFQNames="true">
     <variable name="PATH" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML" value="true" />
     </context>
   </template>
-  <template name="asseticcss" value="{% stylesheets&#10;    '$PATH$'$END$&#10;    filter='cssrewrite'&#10;%}&#10;    &lt;link rel=&quot;stylesheet&quot; href=&quot;{{ asset_url }}&quot; /&gt;&#10;{% endstylesheets %}" toReformat="false" toShortenFQNames="true">
+  <template name="asseticcss" value="{% stylesheets&#10;    '$PATH$'$END$&#10;    filter='cssrewrite'&#10;%}&#10;    &lt;link rel=&quot;stylesheet&quot; href=&quot;{{ asset_url }}&quot; /&gt;&#10;{% endstylesheets %}" description="" toReformat="false" toShortenFQNames="true">
     <variable name="PATH" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML" value="true" />
