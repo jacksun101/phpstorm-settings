@@ -11,12 +11,13 @@
   </font>
   <console-font>
     <option name="EDITOR_FONT_NAME" value="SauceCodePro Nerd Font" />
-    <option name="EDITOR_FONT_SIZE" value="16" />
+    <option name="EDITOR_FONT_SIZE" value="14" />
   </console-font>
   <console-font>
     <option name="EDITOR_FONT_NAME" value="Source Code Pro for Powerline" />
     <option name="EDITOR_FONT_SIZE" value="16" />
   </console-font>
+  <option name="CONSOLE_LINE_SPACING" value="1.4" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="212c32" />
     <option name="ANNOTATIONS_COLOR" value="8b999f" />
