@@ -7,8 +7,14 @@
     <pattern pattern="\btodo\b.*" />
     <pattern pattern="\bfixme\b.*" />
     <pattern pattern="\btodo-me\b.*" />
-    <filter name="For me">
+    <pattern icon="important" pattern="\bcheck-me\b.*" />
+    <pattern icon="question" pattern="\b@@@\b.*" />
+    <filter name="for-me">
+      <pattern index="3" />
       <pattern index="2" />
+    </filter>
+    <filter name="@@@">
+      <pattern index="4" />
     </filter>
   </component>
 </application>
