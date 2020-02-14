@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping ext="groovy" type="PLAIN_TEXT" />
+      <mapping ext="md5" type="PLAIN_TEXT" />
       <mapping ext="res" type="PLAIN_TEXT" />
       <mapping pattern="ignore" type="Git exclude file" />
     </extensionMap>
